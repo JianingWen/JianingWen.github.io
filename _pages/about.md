@@ -1,5 +1,5 @@
 ---
-permalink: 
+permalink: /
 title: "👋 Hello! Welcome to my homepage!"
 author_profile: true
 redirect_from: 
@@ -14,12 +14,12 @@ redirect_from:
 <p>My current research lies at the intersection of Human-Computer Interaction (HCI) and Natural Language Processing (NLP).</p>
 <p>💭Specifically, my research interests include:</p>
 <ul>
-  <li>Human-AI Interaction & Collaboration: Investigating the mechanisms of interaction and collaboration between humans and AI, aiming to understand conflicts and cooperation in order to address key societal challenges such as decision-making, ethics, and trust in AI systems.</li>
-  <li>LLM Privacy from a Human-Centered View: Addressing privacy concerns in large language models (LLMs) from a human-centered perspective, considering how users perceive data usage and trust in AI systems. My work focuses on understanding people's needs and experiences to explore ways to better protect users' privacy and enhance system security.</li>
-  <li>Interdisciplinary Applications: I am passionate about developing interactive systems for diverse domains.</li>
+  <li><b>Human-AI Interaction & Collaboration:</b> Investigating the mechanisms of interaction and collaboration between humans and AI, aiming to understand conflicts and cooperation in order to address key societal challenges such as decision-making, ethics, and trust in AI systems.</li>
+  <li><b>LLM Privacy from a Human-Centered View:</b> Addressing privacy concerns in large language models (LLMs) from a human-centered perspective, considering how users perceive data usage and trust in AI systems. My work focuses on understanding people's needs and experiences to explore ways to better protect users' privacy and enhance system security.</li>
+  <li><b>Interdisciplinary Applications:</b> I am passionate about developing interactive systems for diverse domains.</li>
 </ul>
 
-<p>✉️I'm always happy to chat—feel free to reach out with any questions!</p>
+<p>✉️I'm always happy to chat - feel free to reach out with any questions!</p>
 <!-- End HTML -->
 
 📻 News
