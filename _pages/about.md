@@ -39,6 +39,7 @@ My current research lies at the intersection of Human-Computer Interaction (HCI)
 
 
 🌟 More About Me
+------
 I love outdoor activities, nature and music!
 - In my spare time, I enjoy 🏊‍♀️, 🎾, 🏞️, 🚶🏻‍♀️, 🤿, ⛷️, and 🏂. 
 - I play the flute and love both performing and watching live concerts 🎶.
