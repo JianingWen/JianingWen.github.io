@@ -20,25 +20,29 @@ My current research lies at the intersection of Human-Computer Interaction (HCI)
 
 ✉️I'm always happy to chat - feel free to reach out with any questions!</p>
 
-# 📻 News
+📻 News
 ------
 - 2025.03: 🔥Excited to share that I will be joining <a href="https://tianshili.me/lab/">PEACH Lab</a> at Northeastern Universisty for my PhD!
 - 2024.09: 📜New paper released - <a href="https://arxiv.org/abs/2409.16526">"APILOT: Navigating Large Language Models to Generate Secure Code by Sidestepping Outdated API Pitfalls.</a>"
 
-# 📖Teaching 
+
+📖Teaching 
 ------
 - CSCI 4707, Practice of Database Systems
 - CSCI 2033, Elementary Computational Linear Algebra
 - CSCI 5302, Analysis of Numerical Algorithms
 
-# 🎖 Honors and Awards
+
+🎖 Honors and Awards
 ------
 - Global Excellence Scholarship (2021–2023)
 
-# 🌟 More About Me
+
+🌟 More About Me
 I love outdoor activities, nature and music!
 - In my spare time, I enjoy 🏊‍♀️, 🎾, 🏞️, 🚶🏻‍♀️, 🤿, ⛷️, and 🏂. 
 - I play the flute and love both performing and watching live concerts 🎶.
+
 
 💻 visitors
 ------
