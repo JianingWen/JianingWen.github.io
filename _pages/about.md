@@ -46,9 +46,9 @@ I love outdoor activities, nature and music!
 - I play the flute and love both performing and watching live concerts 🎶.
 
 
-💻 visitors
+<!-- 💻 visitors
 ------
 <div class= "visitor">
   <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=k6zeREDMHp6zN2DgKcBuNlkoyRbdKcQvmw4htzFN0-o&cl=ffffff&w=a"></script>
-</div>
+</div> -->
 
