@@ -18,12 +18,12 @@ My current research lies at the intersection of Human-Computer Interaction (HCI)
 - LLM Privacy from a Human-Centered View: Addressing privacy concerns in large language models (LLMs) from a human-centered perspective, considering how users perceive data usage and trust in AI systems. My work focuses on understanding people's needs and experiences to explore ways to better protect users' privacy and enhance system security.
 - Interdisciplinary Applications: I am passionate about developing interactive systems for diverse domains.
 
-✉️I'm always happy to chat - feel free to reach out with any questions!</p>
+✉️I'm always happy to chat - feel free to reach out with any questions!
 
 📻 News
 ------
-- 2025.03: 🔥Excited to share that I will be joining <a href="https://tianshili.me/lab/">PEACH Lab</a> at Northeastern Universisty for my PhD!
-- 2024.09: 📜New paper released - <a href="https://arxiv.org/abs/2409.16526">"APILOT: Navigating Large Language Models to Generate Secure Code by Sidestepping Outdated API Pitfalls.</a>"
+- 2025.03: 🔥Excited to share that I will be joining [PEACH Lab](https://tianshili.me/lab/) at Northeastern Universisty for my PhD!
+- 2024.09: 📜New paper released - ["APILOT: Navigating Large Language Models to Generate Secure Code by Sidestepping Outdated API Pitfalls."](https://arxiv.org/abs/2409.16526)
 
 
 📖Teaching 
