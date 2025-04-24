@@ -12,7 +12,7 @@ title                    : "Jianing Wen 温家宁"
 title_separator          : "-"
 name                     : &name "Jianing Wen"
 description              : &description "personal description"
-url                      : https://jianingwen.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://jianingwen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 # repository               : "academicpages/academicpages.github.io"
 
