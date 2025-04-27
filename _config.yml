@@ -21,7 +21,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_photo_Jianing.jpg"
+  avatar           : "profile_me.jpg"
   name             : "Jianing Wen"
   pronouns         : "she/her"  
   location         : "Minneapolis, MN"

@@ -9,7 +9,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there! 👋 I’m Jianing Wen, currently a second-year master's student majoring in Computer Sceience at the University of Minnesota. I'm a research assistant in the [Minnesota NLP group](https://minnesotanlp.github.io/), where I am fortunate to be advised by Prof. [Dongyeop Kang](https://dykang.github.io/). I obtained my Bachelor's degree in Computer Science from the University of Minnesota.
+Hi there! 😊 I’m Jianing Wen, currently a second-year master's student majoring in Computer Sceience at the University of Minnesota - Twin Cities. I'm a research assistant in the [Minnesota NLP group](https://minnesotanlp.github.io/), where I am fortunate to be advised by Prof. [Dongyeop Kang](https://dykang.github.io/). I obtained my Bachelor's degree in Computer Science from the University of Minnesota - Twin Cities.
 
 My current research lies at the intersection of Human-Computer Interaction (HCI) and Natural Language Processing (NLP).
 
@@ -29,9 +29,9 @@ My current research lies at the intersection of Human-Computer Interaction (HCI)
 
 📖 Teaching 
 ------
-- CSCI 4707, Practice of Database Systems
-- CSCI 2033, Elementary Computational Linear Algebra
-- CSCI 5302, Analysis of Numerical Algorithms
+- CSCI 4707, Practice of Database Systems (Teaching Assistant), Spring 2025, UMN-TC
+- CSCI 2033, Elementary Computational Linear Algebra (Teaching Assistant), Spring 2024, UMN-TC
+- CSCI 5302, Analysis of Numerical Algorithms (Teaching Assistant), Spring 2023, UMN-TC
 
 
 🎖 Honors and Awards
