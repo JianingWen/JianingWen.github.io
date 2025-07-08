@@ -2,6 +2,11 @@
 
 <!-- start custom head snippets -->
 
+<!-- Google Fonts for enhanced typography -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 <link rel="apple-touch-icon" sizes="57x57" href="{{ base_path }}/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="60x60" href="{{ base_path }}/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="72x72" href="{{ base_path }}/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
@@ -25,6 +30,205 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
+<!-- Custom Academic Theme Enhancements -->
+<style>
+/* Enhanced Typography */
+body {
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  color: #0f172a;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 1.3;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #1e293b;
+}
+
+/* Enhanced links */
+a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  border-bottom-color: currentColor;
+  opacity: 0.8;
+}
+
+/* Code styling improvements */
+code {
+  font-family: "JetBrains Mono", "Fira Code", "Source Code Pro", monospace !important;
+  font-size: 0.875em;
+  font-weight: 500;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 0.125rem 0.375rem;
+}
+
+pre code {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+/* Enhanced blockquotes */
+blockquote {
+  border-left: 4px solid #2563eb;
+  background: #f8fafc;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: #475569;
+}
+
+/* Sidebar enhancements */
+.sidebar .author__avatar img {
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.sidebar .author__avatar img:hover {
+  transform: scale(1.05);
+}
+
+/* Publication and post styling */
+.archive__item-title {
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.archive__item-excerpt {
+  color: #64748b;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+/* Enhanced navigation */
+.masthead {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.masthead__inner-wrap {
+  padding: 1rem 0;
+}
+
+.site-title {
+  font-weight: 700;
+  color: #0f172a !important;
+}
+
+/* Enhanced button styles */
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  transition: all 0.2s ease;
+}
+
+.btn--primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn--primary:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* Enhanced forms */
+input, textarea, select {
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  padding: 0.75rem;
+  transition: border-color 0.2s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  outline: none;
+}
+
+/* Improved spacing and layout */
+.page__content {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.page__content p {
+  margin-bottom: 1.5rem;
+}
+
+/* Enhanced list styling */
+.page__content ul, .page__content ol {
+  margin-bottom: 1.5rem;
+}
+
+.page__content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* Publication date styling */
+.page__meta {
+  color: #64748b;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* Footer enhancements */
+.page__footer {
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  color: #64748b;
+}
+
+/* Responsive typography improvements */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.875rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .page__content {
+    font-size: 0.95rem;
+  }
+}
+</style>
 
 <!-- Support for MatJax -->
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
