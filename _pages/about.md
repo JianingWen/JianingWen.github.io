@@ -9,7 +9,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there! 😊 I’m Jianing Wen, currently a second-year master's student majoring in Computer Sceience at the University of Minnesota - Twin Cities. I'm a research assistant in the [Minnesota NLP group](https://minnesotanlp.github.io/), where I am fortunate to be advised by Prof. [Dongyeop Kang](https://dykang.github.io/). I obtained my Bachelor's degree in Computer Science from the University of Minnesota - Twin Cities.
+Hi there! 😊 I’m Jianing Wen, a first year PhD student in Computer Science at Northeastern University, where I am fortunate to be advised by Prof. [Tianshi Li](https://tianshili.me/) in the [PEACH Lab](https://peach.codes/). 
+Previously, I earned both my Master's and Bachelor's degree in Computer Sceince from the University of Minnesota - Twin Cities. During that time, I was a research assistant in the [Minnesota NLP group](https://minnesotanlp.github.io/), where I had the pleasure of being advised by Prof. [Dongyeop Kang](https://dykang.github.io/). 
 
 My current research lies at the intersection of Human-Computer Interaction (HCI) and Natural Language Processing (NLP).
 
