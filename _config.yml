@@ -13,7 +13,6 @@ title_separator          : "-"
 name                     : &name "Jianing Wen"
 description              : &description "personal description"
 url                      : https://jianingwen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-linkedin                 : https://www.linkedin.com/in/jianing-wen-/
 # baseurl                  : "" # the subpath of your site, e.g. "/blog"
 # repository               : "academicpages/academicpages.github.io"
 
@@ -57,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : https://www.linkedin.com/in/jianing-wen-/
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
