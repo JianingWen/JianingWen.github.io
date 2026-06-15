@@ -24,8 +24,9 @@ My current research lies at the intersection of Human-Computer Interaction (HCI)
 
 📻 News
 ------
-- 2025.03: 🔥Excited to share that I will be joining [PEACH Lab](https://peach.codes/) at Northeastern Universisty in Fall 2025!
-- 2024.09: 📜New paper released - ["APILOT: Navigating Large Language Models to Generate Secure Code by Sidestepping Outdated API Pitfalls."](https://arxiv.org/abs/2409.16526)
+- ✈️2026.06: Attending [DIS 2026](https://dis.acm.org/2026/) in person to present our work, [PrivacyMotiv](https://doi.org/10.1145/3800645.3813014)🎤📄
+- 🎉2025.03: 🔥Excited to share that I will be joining [PEACH Lab](https://peach.codes/) at Northeastern Universisty in Fall 2025!
+<!-- - 2024.09: 📜New paper released - ["APILOT: Navigating Large Language Models to Generate Secure Code by Sidestepping Outdated API Pitfalls."](https://arxiv.org/abs/2409.16526) -->
 
 
 📖 Teaching 
