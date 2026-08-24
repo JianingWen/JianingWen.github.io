@@ -1,0 +1,87 @@
+const TAG_COLORS = {
+  blue: 'bg-blue-600 text-white',
+  emerald: 'bg-emerald-600 text-white',
+  purple: 'bg-purple-600 text-white',
+  rose: 'bg-rose-600 text-white',
+  amber: 'bg-amber-500 text-white',
+  slate: 'bg-slate-600 text-white',
+}
+
+export default function PublicationCard({ publication }) {
+  const { tag, tagColor, title, authors, venue, date, year, links } = publication
+
+  return (
+    <div className="relative flex gap-4 border-b border-slate-100 py-6 last:border-none">
+      {tag && (
+        <span
+          className={`h-fit shrink-0 rounded-md px-3 py-1 text-sm font-semibold tracking-wide ${
+            TAG_COLORS[tagColor] ?? (tagColor ? 'text-white' : TAG_COLORS.slate)
+          }`}
+          style={TAG_COLORS[tagColor] ? undefined : { backgroundColor: tagColor }}
+        >
+          {tag}
+        </span>
+      )}
+
+      <div className="min-w-0 pr-16">
+        <h3 className="text-lg font-semibold text-slate-900">{title}</h3>
+
+        {authors?.length > 0 && (
+          <p className="mt-1.5 text-base text-slate-800">
+            {authors.map((author, i) => {
+              const style = [
+                author.bold ? 'font-semibold' : '',
+                author.underline ? 'underline' : author.href ? 'hover:underline' : '',
+              ]
+                .filter(Boolean)
+                .join(' ')
+
+              return (
+                <span key={author.name}>
+                  {author.href ? (
+                    <a href={author.href} target="_blank" rel="noreferrer" className={style}>
+                      {author.name}
+                    </a>
+                  ) : (
+                    <span className={style}>{author.name}</span>
+                  )}
+                  {i < authors.length - 1 ? ', ' : ''}
+                </span>
+              )
+            })}
+          </p>
+        )}
+
+        {(venue || date) && (
+          <p className="mt-1.5 text-base italic text-slate-700">
+            {venue}
+            {venue && date ? ' ' : ''}
+            {date}
+          </p>
+        )}
+
+        {links?.length > 0 && (
+          <div className="mt-3 flex flex-wrap gap-2">
+            {links.map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-md border border-slate-300 px-3 py-1 text-sm font-medium text-slate-800 transition-colors hover:border-purple-400 hover:text-purple-700"
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {year && (
+        <span className="pointer-events-none absolute top-4 right-0 select-none text-4xl font-bold text-slate-100 sm:text-5xl">
+          {year}
+        </span>
+      )}
+    </div>
+  )
+}
