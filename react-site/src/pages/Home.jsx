@@ -138,16 +138,18 @@ export default function Home() {
       <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
         {/* Left column */}
         <div className="flex flex-col md:col-span-1">
-          <div className="group relative aspect-square w-full overflow-hidden rounded-2xl shadow-md">
-            <img
-              src={profile}
-              alt="Jianing Wen"
-              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
-            />
-            <span className="pointer-events-none absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 ease-out group-hover:translate-x-full" />
-            <span className="pointer-events-none absolute top-3 right-3 scale-50 text-lg opacity-0 transition-all duration-300 group-hover:scale-100 group-hover:opacity-70">
-              ✨
-            </span>
+          <div className="aspect-[4/5] w-full rounded-full border-2 border-dashed border-blue-200 bg-white p-2 shadow-md">
+            <div className="group relative h-full w-full overflow-hidden rounded-full">
+              <img
+                src={profile}
+                alt="Jianing Wen"
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+              />
+              <span className="pointer-events-none absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 ease-out group-hover:translate-x-full" />
+              <span className="pointer-events-none absolute top-3 right-3 scale-50 text-lg opacity-0 transition-all duration-300 group-hover:scale-100 group-hover:opacity-70">
+                ✨
+              </span>
+            </div>
           </div>
 
           <div className="mt-4 flex items-start justify-between gap-4">
@@ -203,7 +205,7 @@ export default function Home() {
             👋 Hello! Welcome to my homepage!
           </h1>
           <p className="mt-4 text-lg text-slate-900">
-            Hi there! 😊 I'm Jianing Wen, a first year PhD student in
+            Hi there! 😊 I'm Jianing Wen, a PhD student in
             Computer Science at Northeastern University, where I am
             fortunate to be advised by Prof.{' '}
             <a
