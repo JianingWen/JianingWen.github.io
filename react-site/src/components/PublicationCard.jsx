@@ -7,11 +7,13 @@ const TAG_COLORS = {
   slate: 'bg-slate-600 text-white',
 }
 
-export default function PublicationCard({ publication }) {
+export default function PublicationCard({ publication, showYear = true, showDivider = true }) {
   const { tag, tagColor, title, authors, venue, date, year, links } = publication
 
   return (
-    <div className="relative flex gap-4 border-b border-slate-100 py-6 last:border-none">
+    <div
+      className={`relative flex gap-4 py-6 ${showDivider ? 'border-b border-slate-100' : ''}`}
+    >
       {tag && (
         <span
           className={`h-fit shrink-0 rounded-md px-3 py-1 text-sm font-semibold tracking-wide ${
@@ -23,7 +25,7 @@ export default function PublicationCard({ publication }) {
         </span>
       )}
 
-      <div className="min-w-0 pr-16">
+      <div className="relative z-10 min-w-0 pr-24 sm:pr-32">
         <h3 className="text-lg font-semibold text-slate-900">{title}</h3>
 
         {authors?.length > 0 && (
@@ -77,8 +79,8 @@ export default function PublicationCard({ publication }) {
         )}
       </div>
 
-      {year && (
-        <span className="pointer-events-none absolute top-4 right-0 select-none text-4xl font-bold text-slate-100 sm:text-5xl">
+      {year && showYear && (
+        <span className="pointer-events-none absolute top-4 right-0 z-0 w-24 select-none text-right text-4xl font-bold text-slate-100 sm:w-32 sm:text-5xl">
           {year}
         </span>
       )}

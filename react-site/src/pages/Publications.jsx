@@ -1,5 +1,6 @@
 import PublicationCard from '../components/PublicationCard.jsx'
 import { PUBLICATIONS } from '../data/publications.js'
+import { annotatePublications } from '../utils/publications.js'
 
 export default function Publications() {
   return (
@@ -10,8 +11,13 @@ export default function Publications() {
       </p>
 
       <div className="mt-6">
-        {PUBLICATIONS.map((pub) => (
-          <PublicationCard key={pub.title} publication={pub} />
+        {annotatePublications(PUBLICATIONS).map(({ pub, showYear, showDivider }) => (
+          <PublicationCard
+            key={pub.title}
+            publication={pub}
+            showYear={showYear}
+            showDivider={showDivider}
+          />
         ))}
       </div>
     </div>

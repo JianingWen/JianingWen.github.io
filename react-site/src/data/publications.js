@@ -47,7 +47,7 @@ export const PUBLICATIONS = [
     ],
   },
   {
-    tag: 'Haips',
+    tag: 'HAIPS@CCS',
     tagColor: 'blue',
     title: 'Speculating Unintended Creepiness: Exploring LLM-Powered Empathy Building for Privacy-Aware UX Design',
      authors: [

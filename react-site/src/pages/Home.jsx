@@ -8,6 +8,7 @@ import { SiGooglescholar } from 'react-icons/si'
 import profile from '../assets/profile.jpg'
 import PublicationCard from '../components/PublicationCard.jsx'
 import { PUBLICATIONS } from '../data/publications.js'
+import { annotatePublications } from '../utils/publications.js'
 import { Link } from 'react-router-dom'
 
 const INFO = [
@@ -279,8 +280,13 @@ export default function Home() {
 
       {/* Full-width sections */}
       <FullWidthSection title="📄 Selected Publications and Preprints">
-        {PUBLICATIONS.slice(0, 2).map((pub) => (
-          <PublicationCard key={pub.title} publication={pub} />
+        {annotatePublications(PUBLICATIONS).slice(0, 2).map(({ pub, showYear, showDivider }) => (
+          <PublicationCard
+            key={pub.title}
+            publication={pub}
+            showYear={showYear}
+            showDivider={showDivider}
+          />
         ))}
         <Link
           to="/publications"
