@@ -33,19 +33,19 @@ export default function Publications() {
 
   return (
     <div>
-      <h1 className="text-2xl font-semibold text-slate-900">Publications</h1>
-      <p className="mt-2 text-sm text-slate-500">
+      <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">Publications</h1>
+      <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
        † indicates co-first authorship.
       </p>
 
       <div className="relative mt-5 max-w-sm">
-        <FaMagnifyingGlass className="pointer-events-none absolute top-1/2 left-3 -translate-y-1/2 text-slate-400" />
+        <FaMagnifyingGlass className="pointer-events-none absolute top-1/2 left-3 -translate-y-1/2 text-slate-400 dark:text-slate-500" />
         <input
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search by title, author, venue…"
-          className="w-full rounded-lg border border-slate-300 py-2 pr-3 pl-9 text-sm text-slate-800 outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100"
+          className="w-full rounded-lg border border-slate-300 py-2 pr-3 pl-9 text-sm text-slate-800 outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100 dark:placeholder-slate-500 dark:focus:border-blue-500 dark:focus:ring-blue-900/40"
         />
       </div>
 
@@ -60,7 +60,7 @@ export default function Publications() {
             />
           ))
         ) : (
-          <p className="py-8 text-center text-sm text-slate-500">
+          <p className="py-8 text-center text-sm text-slate-500 dark:text-slate-400">
             No publications match "{query}".
           </p>
         )}

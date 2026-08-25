@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   color-scheme: light;
   font-size: 17px;
+}
+
+:root.dark {
+  color-scheme: dark;
 }
 
 body {
@@ -24,5 +30,15 @@ body {
   border-radius: 9999px;
 }
 .news-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #60a5fa;
+}
+
+.dark .news-scroll {
+  scrollbar-color: #3b82f6 transparent;
+}
+.dark .news-scroll::-webkit-scrollbar-thumb {
+  background-color: #3b82f6;
+}
+.dark .news-scroll::-webkit-scrollbar-thumb:hover {
   background-color: #60a5fa;
 }
