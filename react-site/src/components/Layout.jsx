@@ -24,7 +24,7 @@ export default function Layout() {
   return (
     <div className="flex min-h-screen flex-col bg-white text-slate-800">
       <header className="border-b border-slate-200">
-        <nav className="mx-auto flex max-w-[68rem] flex-wrap items-center justify-between gap-2 px-8 py-4">
+        <nav className="mx-auto flex max-w-[64rem] flex-wrap items-center justify-between gap-2 px-8 py-4">
           <div className="flex items-baseline gap-2">
             <NavLink to="/" className="text-2xl font-semibold text-slate-900">
               Jianing Wen 温家宁
@@ -41,7 +41,7 @@ export default function Layout() {
         </nav>
       </header>
 
-      <main className="mx-auto w-full max-w-[68rem] flex-1 px-8 py-10">
+      <main className="mx-auto w-full max-w-[64rem] flex-1 px-8 py-10">
         <Outlet />
       </main>
 
