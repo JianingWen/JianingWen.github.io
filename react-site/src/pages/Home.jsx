@@ -155,7 +155,7 @@ export default function Home() {
           <div className="mt-4 flex items-start justify-between gap-4">
             <ul className="space-y-2.5">
               {INFO.map(({ icon: Icon, text }) => (
-                <li key={text} className="flex items-center gap-2 text-base text-slate-800">
+                <li key={text} className="flex items-center gap-2 text-sm whitespace-nowrap text-slate-800">
                   <Icon className="text-blue-600" />
                   {text}
                 </li>
