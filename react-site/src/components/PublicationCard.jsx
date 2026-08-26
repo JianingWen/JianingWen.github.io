@@ -70,7 +70,7 @@ export default function PublicationCard({ publication, showYear = true, showDivi
                 href={link.href}
                 target="_blank"
                 rel="noreferrer"
-                className="rounded-md border border-slate-300 px-3 py-1 text-sm font-medium text-slate-800 transition-colors hover:border-blue-400 hover:text-blue-700 dark:border-neutral-600 dark:text-neutral-200 dark:hover:border-amber-600 dark:hover:text-amber-600"
+                className="rounded-md border border-slate-300 px-3 py-1 text-sm font-medium text-slate-800 transition-colors hover:border-blue-400 hover:text-blue-700 dark:border-neutral-600 dark:text-neutral-200 dark:hover:border-sky-300 dark:hover:text-sky-300"
               >
                 {link.label}
               </a>

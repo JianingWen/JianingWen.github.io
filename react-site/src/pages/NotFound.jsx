@@ -4,7 +4,7 @@ export default function NotFound() {
   return (
     <div className="flex flex-col items-center gap-3 py-24 text-center">
       <h1 className="text-2xl font-semibold text-slate-900 dark:text-neutral-100">Page not found</h1>
-      <Link to="/" className="text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500">
+      <Link to="/" className="text-blue-600 hover:text-blue-700 hover:underline dark:text-sky-300 dark:hover:text-sky-200">
         Back to home
       </Link>
     </div>

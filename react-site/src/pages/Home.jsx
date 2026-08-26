@@ -47,7 +47,7 @@ const NEWS = [
           href="https://dis.acm.org/2026/"
           target="_blank"
           rel="noreferrer"
-          className="text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
+          className="text-blue-600 hover:text-blue-700 hover:underline dark:text-sky-300 dark:hover:text-sky-200"
         >
           DIS 2026
         </a>{' '}
@@ -56,7 +56,7 @@ const NEWS = [
           href="https://doi.org/10.1145/3800645.3813014"
           target="_blank"
           rel="noreferrer"
-          className="text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
+          className="text-blue-600 hover:text-blue-700 hover:underline dark:text-sky-300 dark:hover:text-sky-200"
         >
           PrivacyMotiv
         </a>
@@ -73,7 +73,7 @@ const NEWS = [
           href="https://peach.codes/"
           target="_blank"
           rel="noreferrer"
-          className="text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
+          className="text-blue-600 hover:text-blue-700 hover:underline dark:text-sky-300 dark:hover:text-sky-200"
         >
           PEACH Lab
         </a>{' '}
@@ -141,7 +141,7 @@ export default function Home() {
         <div className="flex flex-col md:col-span-1">
           <div
             data-no-glow
-            className="mx-auto aspect-[4/5] w-[86%] rounded-full border-2 border-dashed border-blue-200 bg-white p-2 shadow-md dark:border-amber-900 dark:bg-neutral-900"
+            className="mx-auto aspect-[4/5] w-[86%] rounded-full border-2 border-dashed border-blue-200 bg-white p-2 shadow-md dark:border-sky-700 dark:bg-neutral-900"
           >
             <div className="group relative h-full w-full overflow-hidden rounded-full">
               <img
@@ -160,7 +160,7 @@ export default function Home() {
             <ul className="space-y-2.5">
               {INFO.map(({ icon: Icon, text }) => (
                 <li key={text} className="flex items-center gap-2 text-sm whitespace-nowrap text-slate-800 dark:text-neutral-200">
-                  <Icon className="text-blue-600 dark:text-amber-600" />
+                  <Icon className="text-blue-600 dark:text-sky-300" />
                   {text}
                 </li>
               ))}
@@ -183,14 +183,14 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-8 flex flex-1 min-h-40 flex-col rounded-2xl border-2 border-dashed border-blue-200 bg-blue-50/60 p-4 dark:border-amber-900 dark:bg-amber-950/30">
+          <div className="mt-8 flex flex-1 min-h-40 flex-col rounded-2xl border-2 border-dashed border-blue-200 bg-blue-50/60 p-4 dark:border-sky-700 dark:bg-sky-950/30">
             <h2 className="mb-3 flex items-center gap-2 text-xl font-semibold text-slate-900 dark:text-neutral-100">
               📻 Latest News
             </h2>
             <ul className="news-scroll min-h-0 flex-1 space-y-3 overflow-y-scroll pr-2">
               {NEWS.map((item) => (
                 <li key={item.date} className="flex gap-2 text-base text-slate-800 dark:text-neutral-200">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500 dark:bg-amber-600" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500 dark:bg-sky-300" />
                   <span>
                     <span className="font-medium text-slate-900 dark:text-neutral-100">
                       {item.date}:
@@ -216,7 +216,7 @@ export default function Home() {
               href="https://tianshili.me/"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
+              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-sky-300 dark:hover:text-sky-200"
             >
               Tianshi Li
             </a>{' '}
@@ -225,7 +225,7 @@ export default function Home() {
               href="https://peach.codes/"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
+              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-sky-300 dark:hover:text-sky-200"
             >
               PEACH Lab
             </a>
@@ -236,7 +236,7 @@ export default function Home() {
               href="https://minnesotanlp.github.io/"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
+              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-sky-300 dark:hover:text-sky-200"
             >
               Minnesota NLP group
             </a>
@@ -245,7 +245,7 @@ export default function Home() {
               href="https://dykang.github.io/"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
+              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-sky-300 dark:hover:text-sky-200"
             >
               Dongyeop Kang
             </a>
@@ -266,7 +266,7 @@ export default function Home() {
           <div className="space-y-5">
             {INTERESTS.map((item, i) => (
               <div key={item.title} className="flex gap-4">
-                <span className="w-10 shrink-0 text-3xl font-bold text-blue-300 select-none dark:text-amber-900">
+                <span className="w-10 shrink-0 text-3xl font-bold text-blue-300 select-none dark:text-sky-700">
                   {String(i + 1).padStart(2, '0')}
                 </span>
                 <div>
@@ -293,7 +293,7 @@ export default function Home() {
         ))}
         <Link
           to="/publications"
-          className="mt-2 inline-block text-base font-medium text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
+          className="mt-2 inline-block text-base font-medium text-blue-600 hover:text-blue-700 hover:underline dark:text-sky-300 dark:hover:text-sky-200"
         >
           View all publications →
         </Link>

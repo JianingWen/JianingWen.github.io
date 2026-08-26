@@ -45,7 +45,7 @@ export default function Publications() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search by title, author, venue…"
-          className="w-full rounded-lg border border-slate-300 py-2 pr-3 pl-9 text-sm text-slate-800 outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100 dark:border-neutral-600 dark:bg-neutral-800 dark:text-neutral-100 dark:placeholder-neutral-500 dark:focus:border-amber-500 dark:focus:ring-amber-900/40"
+          className="w-full rounded-lg border border-slate-300 py-2 pr-3 pl-9 text-sm text-slate-800 outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100 dark:border-neutral-600 dark:bg-neutral-800 dark:text-neutral-100 dark:placeholder-neutral-500 dark:focus:border-sky-200 dark:focus:ring-sky-700/40"
         />
       </div>
 
