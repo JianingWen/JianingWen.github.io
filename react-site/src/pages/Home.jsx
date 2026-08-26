@@ -143,16 +143,12 @@ export default function Home() {
             data-no-glow
             className="mx-auto aspect-[4/5] w-[86%] rounded-full border-2 border-dashed border-blue-200 bg-white p-2 shadow-md dark:border-sky-700 dark:bg-neutral-900"
           >
-            <div className="group relative h-full w-full overflow-hidden rounded-full">
+            <div className="relative h-full w-full overflow-hidden rounded-full">
               <img
                 src={profile}
                 alt="Jianing Wen"
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+                className="h-full w-full object-cover"
               />
-              <span className="pointer-events-none absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 ease-out group-hover:translate-x-full" />
-              <span className="pointer-events-none absolute top-3 right-3 scale-50 text-lg opacity-0 transition-all duration-300 group-hover:scale-100 group-hover:opacity-70">
-                ✨
-              </span>
             </div>
           </div>
 
