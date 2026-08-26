@@ -47,7 +47,7 @@ const NEWS = [
           href="https://dis.acm.org/2026/"
           target="_blank"
           rel="noreferrer"
-          className="text-blue-600 hover:text-blue-700 hover:underline dark:text-blue-400 dark:hover:text-blue-300"
+          className="text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
         >
           DIS 2026
         </a>{' '}
@@ -56,7 +56,7 @@ const NEWS = [
           href="https://doi.org/10.1145/3800645.3813014"
           target="_blank"
           rel="noreferrer"
-          className="text-blue-600 hover:text-blue-700 hover:underline dark:text-blue-400 dark:hover:text-blue-300"
+          className="text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
         >
           PrivacyMotiv
         </a>
@@ -73,7 +73,7 @@ const NEWS = [
           href="https://peach.codes/"
           target="_blank"
           rel="noreferrer"
-          className="text-blue-600 hover:text-blue-700 hover:underline dark:text-blue-400 dark:hover:text-blue-300"
+          className="text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
         >
           PEACH Lab
         </a>{' '}
@@ -109,8 +109,8 @@ const HONORS = ['Global Excellence Scholarship (2021–2023)']
 function FullWidthSection({ title, children }) {
   return (
     <section className="py-4">
-      <h2 className="mb-3 text-2xl font-semibold text-slate-900 dark:text-slate-100">{title}</h2>
-      <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-800/60">
+      <h2 className="mb-3 text-2xl font-semibold text-slate-900 dark:text-neutral-100">{title}</h2>
+      <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm dark:border-neutral-700 dark:bg-neutral-800/60">
         {children}
       </div>
     </section>
@@ -121,7 +121,7 @@ function DiamondList({ items, accent }) {
   return (
     <ul className="space-y-2.5">
       {items.map((item) => (
-        <li key={item} className="flex items-start gap-3 text-base text-slate-800 dark:text-slate-200">
+        <li key={item} className="flex items-start gap-3 text-base text-slate-800 dark:text-neutral-200">
           <span
             className={`mt-1.5 h-2 w-2 shrink-0 rotate-45 rounded-[2px] ${accent}`}
           />
@@ -139,7 +139,7 @@ export default function Home() {
       <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
         {/* Left column */}
         <div className="flex flex-col md:col-span-1">
-          <div className="mx-auto aspect-[4/5] w-[86%] rounded-full border-2 border-dashed border-blue-200 bg-white p-2 shadow-md dark:border-blue-800 dark:bg-slate-900">
+          <div className="mx-auto aspect-[4/5] w-[86%] rounded-full border-2 border-dashed border-blue-200 bg-white p-2 shadow-md dark:border-amber-900 dark:bg-neutral-900">
             <div className="group relative h-full w-full overflow-hidden rounded-full">
               <img
                 src={profile}
@@ -156,8 +156,8 @@ export default function Home() {
           <div className="mt-4 flex items-start justify-between gap-4">
             <ul className="space-y-2.5">
               {INFO.map(({ icon: Icon, text }) => (
-                <li key={text} className="flex items-center gap-2 text-sm whitespace-nowrap text-slate-800 dark:text-slate-200">
-                  <Icon className="text-blue-600 dark:text-blue-400" />
+                <li key={text} className="flex items-center gap-2 text-sm whitespace-nowrap text-slate-800 dark:text-neutral-200">
+                  <Icon className="text-blue-600 dark:text-amber-600" />
                   {text}
                 </li>
               ))}
@@ -180,16 +180,16 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-8 flex flex-1 min-h-40 flex-col rounded-2xl border-2 border-dashed border-blue-200 bg-blue-50/60 p-4 dark:border-blue-800 dark:bg-blue-950/30">
-            <h2 className="mb-3 flex items-center gap-2 text-xl font-semibold text-slate-900 dark:text-slate-100">
+          <div className="mt-8 flex flex-1 min-h-40 flex-col rounded-2xl border-2 border-dashed border-blue-200 bg-blue-50/60 p-4 dark:border-amber-900 dark:bg-amber-950/30">
+            <h2 className="mb-3 flex items-center gap-2 text-xl font-semibold text-slate-900 dark:text-neutral-100">
               📻 Latest News
             </h2>
             <ul className="news-scroll min-h-0 flex-1 space-y-3 overflow-y-scroll pr-2">
               {NEWS.map((item) => (
-                <li key={item.date} className="flex gap-2 text-base text-slate-800 dark:text-slate-200">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500 dark:bg-blue-400" />
+                <li key={item.date} className="flex gap-2 text-base text-slate-800 dark:text-neutral-200">
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500 dark:bg-amber-600" />
                   <span>
-                    <span className="font-medium text-slate-900 dark:text-slate-100">
+                    <span className="font-medium text-slate-900 dark:text-neutral-100">
                       {item.date}:
                     </span>{' '}
                     {item.text}
@@ -202,10 +202,10 @@ export default function Home() {
 
         {/* Right column */}
         <div className="md:col-span-2">
-          <h1 className="text-3xl font-semibold text-slate-900 dark:text-slate-100">
+          <h1 className="text-3xl font-semibold text-slate-900 dark:text-neutral-100">
             👋 Hello! Welcome to my homepage!
           </h1>
-          <p className="mt-4 text-lg text-slate-900 dark:text-slate-100">
+          <p className="mt-4 text-lg text-slate-900 dark:text-neutral-100">
             Hi there! 😊 I'm Jianing Wen, a PhD student in
             Computer Science at Northeastern University, where I am
             fortunate to be advised by Prof.{' '}
@@ -213,7 +213,7 @@ export default function Home() {
               href="https://tianshili.me/"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-blue-400 dark:hover:text-blue-300"
+              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
             >
               Tianshi Li
             </a>{' '}
@@ -222,7 +222,7 @@ export default function Home() {
               href="https://peach.codes/"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-blue-400 dark:hover:text-blue-300"
+              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
             >
               PEACH Lab
             </a>
@@ -233,7 +233,7 @@ export default function Home() {
               href="https://minnesotanlp.github.io/"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-blue-400 dark:hover:text-blue-300"
+              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
             >
               Minnesota NLP group
             </a>
@@ -242,33 +242,33 @@ export default function Home() {
               href="https://dykang.github.io/"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-blue-400 dark:hover:text-blue-300"
+              className="text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
             >
               Dongyeop Kang
             </a>
             .
           </p>
-          <p className="mt-3 text-lg text-slate-900 dark:text-slate-100">
+          <p className="mt-3 text-lg text-slate-900 dark:text-neutral-100">
             My current research lies at the intersection of Human-Computer
             Interaction (HCI) and Natural Language Processing (NLP).
           </p>
-          <p className="mt-3 text-lg text-slate-900 dark:text-slate-100">
+          <p className="mt-3 text-lg text-slate-900 dark:text-neutral-100">
             ✉️ I'm always happy to chat - feel free to reach out with any
             questions!
           </p>
 
-          <h2 className="mt-8 mb-4 text-xl font-semibold text-slate-900 dark:text-slate-100">
+          <h2 className="mt-8 mb-4 text-xl font-semibold text-slate-900 dark:text-neutral-100">
             💭 Research Interests
           </h2>
           <div className="space-y-5">
             {INTERESTS.map((item, i) => (
               <div key={item.title} className="flex gap-4">
-                <span className="w-10 shrink-0 text-3xl font-bold text-blue-300 select-none dark:text-blue-900">
+                <span className="w-10 shrink-0 text-3xl font-bold text-blue-300 select-none dark:text-amber-900">
                   {String(i + 1).padStart(2, '0')}
                 </span>
                 <div>
-                  <p className="text-lg font-medium text-slate-900 dark:text-slate-100">{item.title}</p>
-                  <p className="text-base text-slate-900 dark:text-slate-100">{item.body}</p>
+                  <p className="text-lg font-medium text-slate-900 dark:text-neutral-100">{item.title}</p>
+                  <p className="text-base text-slate-900 dark:text-neutral-100">{item.body}</p>
                 </div>
               </div>
             ))}
@@ -276,7 +276,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="my-6 h-px w-full bg-gradient-to-r from-transparent via-slate-300 to-transparent dark:via-slate-700" />
+      <div className="my-6 h-px w-full bg-gradient-to-r from-transparent via-slate-300 to-transparent dark:via-neutral-700" />
 
       {/* Full-width sections */}
       <FullWidthSection title="📄 Selected Publications and Preprints">
@@ -290,7 +290,7 @@ export default function Home() {
         ))}
         <Link
           to="/publications"
-          className="mt-2 inline-block text-base font-medium text-blue-600 hover:text-blue-700 hover:underline dark:text-blue-400 dark:hover:text-blue-300"
+          className="mt-2 inline-block text-base font-medium text-blue-600 hover:text-blue-700 hover:underline dark:text-amber-600 dark:hover:text-amber-500"
         >
           View all publications →
         </Link>
@@ -305,7 +305,7 @@ export default function Home() {
       </FullWidthSection>
 
       <FullWidthSection title="🌟 More About Me">
-        <p className="text-base text-slate-800 dark:text-slate-200">
+        <p className="text-base text-slate-800 dark:text-neutral-200">
           I love outdoor activities, nature and music!
         </p>
         <div className="mt-3">

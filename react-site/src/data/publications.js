@@ -21,7 +21,7 @@ export const PUBLICATIONS = [
     year: 2026,
     links: [
       // { label: 'Abs', href: '#' },
-      { label: 'PDF', href: 'https://dl.acm.org/doi/pdf/10.1145/3800645.3813014' },
+      { label: 'Paper', href: 'https://dl.acm.org/doi/pdf/10.1145/3800645.3813014' },
       { label: 'Demo', href: 'https://peach-research-lab.github.io/PrivacyMotiv/' },
     ],
   },
@@ -43,7 +43,7 @@ export const PUBLICATIONS = [
     year: 2025,
     links: [
       // { label: 'Abs', href: '#' },
-      { label: 'PDF', href: 'https://ieeexplore.ieee.org/abstract/document/11391724' },
+      { label: 'Paper', href: 'https://ieeexplore.ieee.org/abstract/document/11391724' },
     ],
   },
   {
@@ -62,7 +62,7 @@ export const PUBLICATIONS = [
     year: 2025,
     links: [
       // { label: 'Abs', href: '#' },
-      { label: 'PDF', href: 'https://dl.acm.org/doi/pdf/10.1145/3733816.3760759' },
+      { label: 'Paper', href: 'https://dl.acm.org/doi/pdf/10.1145/3733816.3760759' },
     ],
   },
 ]

@@ -12,7 +12,7 @@ export default function PublicationCard({ publication, showYear = true, showDivi
 
   return (
     <div
-      className={`relative flex gap-4 py-6 ${showDivider ? 'border-b border-slate-100 dark:border-slate-800' : ''}`}
+      className={`relative flex gap-4 py-6 ${showDivider ? 'border-b border-slate-100 dark:border-neutral-800' : ''}`}
     >
       {tag && (
         <span
@@ -26,10 +26,10 @@ export default function PublicationCard({ publication, showYear = true, showDivi
       )}
 
       <div className="relative z-10 min-w-0 pr-24 sm:pr-32">
-        <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100">{title}</h3>
+        <h3 className="text-lg font-semibold text-slate-900 dark:text-neutral-100">{title}</h3>
 
         {authors?.length > 0 && (
-          <p className="mt-1.5 text-base text-slate-800 dark:text-slate-200">
+          <p className="mt-1.5 text-base text-slate-800 dark:text-neutral-200">
             {authors.map((author, i) => {
               const style = [
                 author.bold ? 'font-semibold' : '',
@@ -55,7 +55,7 @@ export default function PublicationCard({ publication, showYear = true, showDivi
         )}
 
         {(venue || date) && (
-          <p className="mt-1.5 text-base italic text-slate-700 dark:text-slate-300">
+          <p className="mt-1.5 text-base italic text-slate-700 dark:text-neutral-300">
             {venue}
             {venue && date ? ' ' : ''}
             {date}
@@ -70,7 +70,7 @@ export default function PublicationCard({ publication, showYear = true, showDivi
                 href={link.href}
                 target="_blank"
                 rel="noreferrer"
-                className="rounded-md border border-slate-300 px-3 py-1 text-sm font-medium text-slate-800 transition-colors hover:border-blue-400 hover:text-blue-700 dark:border-slate-600 dark:text-slate-200 dark:hover:border-blue-400 dark:hover:text-blue-400"
+                className="rounded-md border border-slate-300 px-3 py-1 text-sm font-medium text-slate-800 transition-colors hover:border-blue-400 hover:text-blue-700 dark:border-neutral-600 dark:text-neutral-200 dark:hover:border-amber-600 dark:hover:text-amber-600"
               >
                 {link.label}
               </a>
@@ -80,7 +80,7 @@ export default function PublicationCard({ publication, showYear = true, showDivi
       </div>
 
       {year && showYear && (
-        <span className="pointer-events-none absolute top-4 right-0 z-0 w-24 select-none text-right text-4xl font-bold text-slate-100 sm:w-32 sm:text-5xl dark:text-slate-800">
+        <span className="pointer-events-none absolute top-4 right-0 z-0 w-24 select-none text-right text-4xl font-bold text-slate-100 sm:w-32 sm:text-5xl dark:text-neutral-800">
           {year}
         </span>
       )}

@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom'
+import CursorGlow from './CursorGlow.jsx'
 import ThemeToggle from './ThemeToggle.jsx'
 
 const NAV_LINKS = [
@@ -16,21 +17,23 @@ function navClass({ isActive }) {
   return [
     'px-3 py-2 text-base font-medium rounded-md transition-colors',
     isActive
-      ? 'text-blue-700 bg-blue-50 dark:text-blue-400 dark:bg-blue-950/40'
-      : 'text-slate-700 hover:text-blue-700 hover:bg-blue-50 dark:text-slate-300 dark:hover:text-blue-400 dark:hover:bg-blue-950/40',
+      ? 'text-blue-700 bg-blue-50 dark:text-amber-600 dark:bg-amber-950/40'
+      : 'text-slate-700 hover:text-blue-700 hover:bg-blue-50 dark:text-neutral-300 dark:hover:text-amber-600 dark:hover:bg-amber-950/40',
   ].join(' ')
 }
 
 export default function Layout() {
   return (
-    <div className="flex min-h-screen flex-col bg-gradient-to-br from-orange-50 via-sky-50 to-indigo-50 text-slate-800 dark:from-slate-950 dark:via-slate-900 dark:to-slate-800 dark:text-slate-200">
-      <header className="border-b border-slate-200 dark:border-slate-800">
+    <div className="flex min-h-screen flex-col bg-gradient-to-br from-orange-50 via-sky-50 to-indigo-50 text-slate-800 dark:from-neutral-900 dark:via-neutral-800 dark:to-neutral-700 dark:text-neutral-200">
+      <CursorGlow />
+
+      <header className="border-b border-slate-200 dark:border-neutral-800">
         <nav className="mx-auto flex max-w-[68rem] flex-wrap items-center justify-between gap-2 px-8 py-4">
           <div className="flex items-baseline gap-2">
-            <NavLink to="/" className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
+            <NavLink to="/" className="text-2xl font-semibold text-slate-900 dark:text-neutral-100">
               Jianing Wen 温家宁
             </NavLink>
-            <span className="text-sm italic text-slate-500 dark:text-slate-400">she/her</span>
+            <span className="text-sm italic text-slate-500 dark:text-neutral-400">she/her</span>
           </div>
           <div className="flex flex-wrap items-center gap-1">
             {NAV_LINKS.map(({ to, label, end }) => (
@@ -47,7 +50,7 @@ export default function Layout() {
         <Outlet />
       </main>
 
-      <footer className="border-t border-slate-200 py-6 text-center text-sm text-slate-500 dark:border-slate-800 dark:text-slate-400">
+      <footer className="border-t border-slate-200 py-6 text-center text-sm text-slate-500 dark:border-neutral-800 dark:text-neutral-400">
         © {new Date().getFullYear()} Jianing Wen
       </footer>
     </div>
