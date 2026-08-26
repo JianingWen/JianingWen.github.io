@@ -139,7 +139,10 @@ export default function Home() {
       <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
         {/* Left column */}
         <div className="flex flex-col md:col-span-1">
-          <div className="mx-auto aspect-[4/5] w-[86%] rounded-full border-2 border-dashed border-blue-200 bg-white p-2 shadow-md dark:border-amber-900 dark:bg-neutral-900">
+          <div
+            data-no-glow
+            className="mx-auto aspect-[4/5] w-[86%] rounded-full border-2 border-dashed border-blue-200 bg-white p-2 shadow-md dark:border-amber-900 dark:bg-neutral-900"
+          >
             <div className="group relative h-full w-full overflow-hidden rounded-full">
               <img
                 src={profile}

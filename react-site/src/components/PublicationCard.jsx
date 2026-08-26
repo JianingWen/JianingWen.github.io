@@ -80,7 +80,7 @@ export default function PublicationCard({ publication, showYear = true, showDivi
       </div>
 
       {year && showYear && (
-        <span className="pointer-events-none absolute top-4 right-0 z-0 w-24 select-none text-right text-4xl font-bold text-slate-100 sm:w-32 sm:text-5xl dark:text-neutral-800">
+        <span className="pointer-events-none absolute top-4 right-0 z-0 w-24 select-none text-right text-4xl font-bold text-[#eaeff5] sm:w-32 sm:text-5xl dark:text-neutral-800">
           {year}
         </span>
       )}
