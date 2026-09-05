@@ -201,7 +201,9 @@ export default function Home() {
 
         {/* Right column */}
         <div className="md:col-span-2">
-          <h1 className="text-3xl font-semibold text-center text-slate-900 dark:text-neutral-100">
+          <h1 className="text-3xl font-semibold text-center text-slate-900 dark:text-neutral-100"
+              style={{ fontFamily: "'Libre Baskerville', serif" }}
+          >
             Jianing Wen
           </h1>
           <p className="mt-4 text-base text-slate-900 dark:text-neutral-100">
