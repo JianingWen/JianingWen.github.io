@@ -85,16 +85,16 @@ const NEWS = [
 
 const INTERESTS = [
   {
+    title: 'Human-Centered Privacy',
+    body: "I study privacy challenges from a human-centered perspective, with a focus on understanding people's needs, experiences, and perceptions of privacy in emerging technologies.",
+  },
+  {
+    title: 'Risks and Trustworthiness in LLMs and AI Agents',
+    body: "I investigate emerging risks associated with LLMs and increasingly capable AI agents. My current work examines how agentic capabilities can amplify privacy threats and how these risks can be better understood and mitigated.",
+  },
+  {
     title: 'Human-AI Interaction & Collaboration',
-    body: 'Investigating the mechanisms of interaction and collaboration between humans and AI, aiming to understand conflicts and cooperation in order to address key societal challenges such as decision-making, ethics, and trust in AI systems.',
-  },
-  {
-    title: 'LLM Privacy from a Human-Centered View',
-    body: "Addressing privacy concerns in large language models (LLMs) from a human-centered perspective, considering how users perceive data usage and trust in AI systems. My work focuses on understanding people's needs and experiences to explore ways to better protect users' privacy and enhance system security.",
-  },
-  {
-    title: 'Interdisciplinary Applications',
-    body: 'I am passionate about developing interactive systems for diverse domains.',
+    body: 'I am broadly interested in how people interact and collaborate with AI systems. My work explores how the design and behavior of AI systems shape human decision-making, trust, and control, with the goal of informing the design of more effective and trustworthy human-AI systems.',
   },
 ]
 
@@ -201,13 +201,11 @@ export default function Home() {
 
         {/* Right column */}
         <div className="md:col-span-2">
-          <h1 className="text-3xl font-semibold text-slate-900 dark:text-neutral-100">
-            👋 Hello! Welcome to my homepage!
+          <h1 className="text-3xl font-semibold text-center text-slate-900 dark:text-neutral-100">
+            Jianing Wen
           </h1>
-          <p className="mt-4 text-lg text-slate-900 dark:text-neutral-100">
-            Hi there! 😊 I'm Jianing Wen, a PhD student in
-            Computer Science at Northeastern University, where I am
-            fortunate to be advised by Prof.{' '}
+          <p className="mt-4 text-base text-slate-900 dark:text-neutral-100">
+            I'm a PhD student in the Khoury College of Computer Sciences at Northeastern University, supervised by Prof.{' '}
             <a
               href="https://tianshili.me/"
               target="_blank"
@@ -227,7 +225,7 @@ export default function Home() {
             </a>
             . Previously, I earned both my Master's and Bachelor's degree in
             Computer Science from the University of Minnesota - Twin
-            Cities. During that time, I was a research assistant in the{' '}
+            Cities. I was a research assistant in the{' '}
             <a
               href="https://minnesotanlp.github.io/"
               target="_blank"
@@ -236,7 +234,7 @@ export default function Home() {
             >
               Minnesota NLP group
             </a>
-            , where I had the pleasure of being advised by Prof.{' '}
+            , where I was advised by Prof.{' '}
             <a
               href="https://dykang.github.io/"
               target="_blank"
@@ -247,13 +245,12 @@ export default function Home() {
             </a>
             .
           </p>
-          <p className="mt-3 text-lg text-slate-900 dark:text-neutral-100">
-            My current research lies at the intersection of Human-Computer
-            Interaction (HCI) and Natural Language Processing (NLP).
+          <p className="mt-3 text-base font-semibold text-slate-900 dark:text-neutral-100">
+            ✉️ Always open to collaborations, random conversations, 
+            or just making new friends - feel free to say hi!
           </p>
-          <p className="mt-3 text-lg text-slate-900 dark:text-neutral-100">
-            ✉️ I'm always happy to chat - feel free to reach out with any
-            questions!
+          <p className="mt-3 text-base text-slate-900 dark:text-neutral-100">
+            My current research lies at the intersection of Human-Computer Interaction (HCI), Privacy, and Artificial Intelligence (AI). I study emerging privacy challenges in digital and AI-driven environments, combining human-centered perspectives with technical approaches to understand and address these problems.
           </p>
 
           <h2 className="mt-8 mb-4 text-xl font-semibold text-slate-900 dark:text-neutral-100">
@@ -262,7 +259,7 @@ export default function Home() {
           <div className="space-y-5">
             {INTERESTS.map((item, i) => (
               <div key={item.title} className="flex gap-4">
-                <span className="w-10 shrink-0 text-3xl font-bold text-blue-300 select-none dark:text-sky-700">
+                <span className="w-10 shrink-0 text-2xl font-bold text-blue-300 select-none dark:text-sky-700">
                   {String(i + 1).padStart(2, '0')}
                 </span>
                 <div>
