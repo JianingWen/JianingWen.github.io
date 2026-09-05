@@ -223,9 +223,9 @@ export default function Home() {
             >
               PEACH Lab
             </a>
-            . Previously, I earned both my Master's and Bachelor's degree in
+            . Previously, I earned both my Master's and Bachelor's degrees in
             Computer Science from the University of Minnesota - Twin
-            Cities. I was a research assistant in the{' '}
+            Cities. I worked as a research assistant in the{' '}
             <a
               href="https://minnesotanlp.github.io/"
               target="_blank"
