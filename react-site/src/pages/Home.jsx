@@ -90,7 +90,7 @@ const INTERESTS = [
   },
   {
     title: 'Risks and Trustworthiness in LLMs and AI Agents',
-    body: "I investigate emerging risks associated with LLMs and increasingly capable AI agents. My current work examines how agentic capabilities can amplify privacy threats and how these risks can be better understood and mitigated.",
+    body: "I investigate emerging risks associated with LLMs and increasingly capable AI agents. My current work examines how agentic capabilities can amplify privacy threats and how these risks can be better understood and mitigated through both empirical studies and computational methods.",
   },
   {
     title: 'Human-AI Interaction & Collaboration',
@@ -250,7 +250,7 @@ export default function Home() {
             or just making new friends - feel free to say hi!
           </p>
           <p className="mt-3 text-base text-slate-900 dark:text-neutral-100">
-            My current research lies at the intersection of Human-Computer Interaction (HCI), Privacy, and Artificial Intelligence (AI). I study emerging privacy challenges in digital and AI-driven environments, combining human-centered perspectives with technical approaches to understand and address these problems.
+            My research lies at the intersection of Human-Computer Interaction (HCI), Privacy, and Artificial Intelligence (AI). I study emerging privacy challenges in digital and AI-driven environments, combining human-centered perspectives with technical approaches to understand and address these problems.
           </p>
 
           <h2 className="mt-8 mb-4 text-xl font-semibold text-slate-900 dark:text-neutral-100">
